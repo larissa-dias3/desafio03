@@ -57,6 +57,7 @@ img {
   color: white;
   text-decoration: none;
   width: 100%; /*ocupa a largura total*/
+  font-family: "Inter";
 }
 h1 {
   font-family: "Inter";
@@ -69,10 +70,23 @@ h1 {
   font-size: 15px;
   font-weight: 400;
 }
-.texto{
-    font-family: "Inter";
-    color: white;
-    font-size: 15px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+.texto {
+  font-family: "Inter";
+  color: white;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.attribution {
+  position: absolute;
+  bottom: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
